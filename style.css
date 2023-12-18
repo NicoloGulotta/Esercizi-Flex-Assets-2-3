@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width:auto ;
+}
+
+div#cardContainer {
+    gap: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cardContainer>.firstMock {
+    width: 230px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+div.firstMock.container>img.image {
+    object-fit: cover;
+    width: auto;
+    height: 300px;
+    position: relative;
+    border-radius: 60px 60px 0px 0px;
+}
+
+div.container>div.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: auto;
+    background-color: rgb(246, 246, 187);
+    border-radius: 0px 0px 60px 60px;
+
+}
+
+
+button#BT {
+    background-color: rgb(250, 225, 112);
+
+    border-radius: 20pt;
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.Des-id {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+span.Des-what {
+    font-weight: 700;
+}
+
+span.Des-where {
+    font-size: 8pt;
+}
+
+div.Des-Separation {
+    display: flex;
+    align-items: center
+}
+
+.buttonContainer {
+
+    width: auto;
+    top: 0;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 225, 112);
+    border-radius: 20pt;
+    gap: 10px;
+}
+
+
+button.other {
+    background-color: rgb(194, 184, 94);
+    border-color: transparent;
+    border-radius: 20pt;
+    height: 30px;
+    flex-grow: 1;
+}
+
+button#shop {
+    flex-grow: 2;
+    border-radius: 50pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 225, 112);
+    border-color: white;
+}
+
+img#logo {
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+div.changePosition {
+    display: flex;
+}
+
+p {
+    width: 300px;
+    flex-shrink: 1;
+}
+
+
+img.image1 {
+    display: flex;
+    height: 300px;
+    flex-shrink: 0;
+}
